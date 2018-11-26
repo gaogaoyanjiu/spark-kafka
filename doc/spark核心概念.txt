@@ -1,0 +1,153 @@
+
+
+1、StreamingContext
+
+2、Discretized（离散流） Streams 简称（DStreams）持续化数据流，代表一系列的RDD（一个Dstream对应多个RDD）
+	2.1 InputDStreams 和Receivers（接收器）
+
+			Receivers 除了文件的数据源都会存到内存供后续使用
+
+			textDStreams（文件系统接收的流不需要接收器） 
+
+
+要记住的要点：
+	在本地运行Spark Streaming程序时，请勿使用“local”或“local [1]”作为主URL。
+	这两种方法都意味着只有一个线程将用于本地运行任务。
+	如果您正在使用基于接收器的输入DStream（例如套接字，Kafka，Flume等），则单线程将用于运行接收器，不会留下任何线程来处理接收到的数据。
+	因此，在本地运行时，始终使用“local [ n ]”作为主URL，其中n >要运行的接收器数量（有关如何设置主服务器的信息，请参阅Spark属性）。
+
+	将逻辑扩展到在集群上运行，分配给Spark Streaming应用程序的核心数必须大于接收器数。否则系统将接收数据，但无法处理数据。
+
+
+Transformations（DStreams的转换）
+
+Output Operations（DStreams的输出操作）
+
+
+
+checkpoint
+	checkpoint使用非常简单，设置checkpoint目录，然后调用RDD的checkpoint方法。针对checkpoint的写入流程，主要有以下四个问题：
+
+Q1：RDD中的数据是什么时候写入的？是在rdd调用checkpoint方法时候吗？
+
+Q2：在做checkpoint的时候，具体写入了哪些数据到HDFS了？
+
+Q3：在对RDD做完checkpoint以后，对做RDD的本省又做了哪些收尾工作？
+
+Q4：实际过程中，使用RDD做checkpoint的时候需要注意什么问题？
+
+算子：
+    测试命令：nc -lk 6789
+	
+	
+	reduceByKey===按批次处理（入门程序）
+	
+	a a a c d e d
+
+	updateStateByKey===有状态统计（累计求和，统计topN）
+
+	a a a c d e d
+
+	将统计结果保存到mysql数据库
+	
+	create table wordcount(
+		word varchar(50) default null,
+		wordcount int(10) default null
+	);
+	
+	
+	val sql = "insert into wordcount(word, wordcount) values('" + record._1 + "'," + record._2 + ")"
+	
+	存在的问题：
+	1、对于已有的数据做更新，而是对所有的数据均为insert
+	  改进思路：
+	     a、在插入数据之前先进行判断单词是否存在
+		 b、工作中：hbase或者redis实现
+		 
+	2、每个rdd的parttition创建connection，建议放到连接池
+	
+window窗口计算：
+
+	window 窗口长度 
+	sliding  滑动间隔 
+
+	让我们举一个例子来说明窗口操作。比如说，您希望通过每隔10秒在最后30秒的数据中生成字数来扩展 前面的示例
+	
+	
+	黑名单过滤：
+	Transformations
+	
+20180609,zs
+20180609,ls
+20180609,ww
+	
+	sparkstreaming 整合sparkSQL
+	
+
+	
+	高级数据源整合：
+	flume
+	 push方式：sink的模式为avro，sparkstreaming先启动，在启动flume
+	flume_push_streaming.conf
+			
+		simple-agent.sources = netcat-source
+		simple-agent.sinks = avro-sink
+		simple-agent.channels = memory-channel
+
+		simple-agent.sources.netcat-source.type = netcat
+		simple-agent.sources.netcat-source.bind = hadoop000
+		simple-agent.sources.netcat-source.port = 44444
+
+		simple-agent.sinks.avro-sink.type = avro
+		simple-agent.sinks.avro-sink.hostname = hadoop000
+		simple-agent.sinks.avro-sink.port = 41414
+
+		simple-agent.channels.memory-channel.type = memory
+
+		simple-agent.sources.netcat-source.channels = memory-channel
+		simple-agent.sinks.avro-sink.channel = memory-channel
+	
+	
+	
+	本地测试时：simple-agent.sinks.avro-sink.hostname = IEDA代码所在主机的的IP    （网络端口》agent》channel》sink》sparkstreaming）
+	
+	IDEA修改传入参数：program arguments：0.0.0.0 41414
+	
+	测试：本地控制台输入：telnet localhost 44444
+	
+	服务器端启动flume：
+	
+	./flume-ng agent \
+	-n simple-agent \
+	-c $FLUME_HOME/conf \
+	-f $FLUME_HOME/conf/flume_push_streaming.conf \
+	-Dflume.root.logger=INFO,console
+	
+	
+	
+	问题： Linux系统xinetd服务启动不了
+
+			xinetd服务时发现xinetd服务启动不了，并出现错误提示xinetd：unrecognized service，当出现这个错误提示的时候说明系统未安装xinetd包
+			解决方法
+
+　　只需安装xinetd包
+
+	　　#yum -y install xinetd
+
+	　　安装成功后即可
+
+	　　service xinetd start
+
+	　　service xinetd stop
+
+	　　service xinetd restart
+
+	　　启动，关闭，重启ftp服务，安装完xinetd包后，就能使用xinetd启动ftp了。
+	
+	pull方式：
+	
+	
+	kafka
+	
+	
+	

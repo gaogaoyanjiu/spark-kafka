@@ -28,7 +28,7 @@ public class ProducerDemo {
         try {
             producer = new KafkaProducer<String, String>(properties);
             for (int i = 0; i < 10000; i++) {
-                String msg = "Message " + i;
+                String msg = "Message 8 " + i;
                 producer.send(new ProducerRecord<String, String>(KafkaProperties.TOPIC, msg));
                 System.out.println("Sent:" + msg );
             }
