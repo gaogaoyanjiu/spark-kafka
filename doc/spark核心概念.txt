@@ -175,6 +175,16 @@ hadoop000 41414
 hadoop000:2181 test kafka-streaming-topic 1
 
 
+
+./bin/spark-submit \
+--class  com.imooc.spark.KafkaDirectWordCount \
+--master local[2] \
+--name KafkaReceiverWordCount \
+--packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.2.0 \
+/home/hadoop/lib/spark-kafka-1.0.jar \
+hadoop000:2181 kafka-streaming-topic
+
+
 	
 	
 	
