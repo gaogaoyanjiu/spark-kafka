@@ -11,7 +11,7 @@ object FlumePushWordCount {
 
   def main(args: Array[String]): Unit = {
 
-    System.setProperty("hadoop.home.dir","D:/hadoop-common-2.2.0-bin-master" )
+    //System.setProperty("hadoop.home.dir","D:/hadoop-common-2.2.0-bin-master" )
 
 //    if(args.length != 2) {
 //      //提示
@@ -21,6 +21,7 @@ object FlumePushWordCount {
 
     val Array(hostname, port) = args
 
+    //部署时注释掉本地启动
     val sparkConf = new SparkConf()//.setMaster("local[2]").setAppName("FlumePushWordCount")
     val ssc = new StreamingContext(sparkConf, Seconds(5))
 
