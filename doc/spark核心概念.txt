@@ -164,7 +164,7 @@ pull方式：
 /home/hadoop/lib/spark-kafka-1.0.jar \
 hadoop000 41414
 
-整合kafka
+1、Receiver方式整合kafka：
 
 ./bin/spark-submit \
 --class  com.tdtk.spark.kafka.KafkaReceiverWordCount \
@@ -174,15 +174,15 @@ hadoop000 41414
 /home/hadoop/lib/spark-kafka-1.0.jar \
 hadoop000:2181 test kafka-streaming-topic 1
 
-
+2、Direct 方式整合kafka：
 
 ./bin/spark-submit \
---class  com.imooc.spark.KafkaDirectWordCount \
+--class  com.tdtk.spark.kafka.KafkaDirectWordCount \
 --master local[2] \
---name KafkaReceiverWordCount \
+--name KafkaDirectWordCount \
 --packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.2.0 \
 /home/hadoop/lib/spark-kafka-1.0.jar \
-hadoop000:2181 kafka-streaming-topic
+hadoop000:9092 kafka-streaming-topic
 
 
 	
