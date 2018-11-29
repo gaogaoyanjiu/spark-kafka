@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be30e4b5-84a1-4d64-b7f5-f15789a33aca" name="Default" comment="" />
+    <list default="true" id="be30e4b5-84a1-4d64-b7f5-f15789a33aca" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tdtk/spark/StreamingWordCountApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tdtk/spark/WordCountApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Flume、kafka、spark.docx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Flume、kafka、spark.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-kafka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark-kafka.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,20 +36,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="3696">
               <caret line="132" column="14" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KafkaStreamingApp.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/tdtk/spark/kafka/KafkaStreamingApp.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-308">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-              <folding>
-                <element signature="e#30#63#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -50,7 +45,7 @@
       <file leaf-file-name="ImoocStatStreamingApp.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/tdtk/spark/project/spark/ImoocStatStreamingApp.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
+            <state relative-caret-position="392">
               <caret line="14" column="21" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="28" />
               <folding>
                 <element signature="e#38#120#0" expanded="true" />
@@ -61,9 +56,7 @@
       </file>
       <file leaf-file-name="generate_log.python" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doc/data/generate_log.python">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1428" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="CourseSearchClickCount.scala" pinned="false" current-in-tab="false">
@@ -78,16 +71,13 @@
       <file leaf-file-name="CourseSearchClickCountDAO.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/tdtk/spark/project/dao/CourseSearchClickCountDAO.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="112">
               <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-              <folding>
-                <element signature="e#37#96#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -96,32 +86,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CourseClickCountDAO.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/tdtk/spark/project/dao/CourseClickCountDAO.scala">
+      <file leaf-file-name="WordCountApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tdtk/spark/WordCountApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="372">
+              <caret line="54" lean-forward="true" selection-end-line="58" />
               <folding>
-                <element signature="e#36#89#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CourseClickCount.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/tdtk/spark/project/domain/CourseClickCount.scala">
+      <file leaf-file-name="StreamingWordCountApp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tdtk/spark/StreamingWordCountApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="386">
+              <caret line="34" column="32" lean-forward="true" selection-end-line="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClickLog.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/tdtk/spark/project/domain/ClickLog.scala">
+      <file leaf-file-name="FileWordCount.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/tdtk/spark/FileWordCount.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="301">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaRDD.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0-sources.jar!/org/apache/spark/api/java/JavaRDD.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -165,6 +167,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/tdtk/spark/project/domain/CourseSearchClickCount.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/tdtk/spark/project/dao/CourseSearchClickCountDAO.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/tdtk/spark/project/spark/ImoocStatStreamingApp.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tdtk/spark/WordCountApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tdtk/spark/StreamingWordCountApp.java" />
       </list>
     </option>
   </component>
@@ -206,8 +210,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="925" />
     <option name="height" value="785" />
   </component>
@@ -219,8 +223,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,7 +239,7 @@
               <item name="spark-kafka" type="b2602c69:ProjectViewProjectNode" />
               <item name="spark-kafka" type="462c0819:PsiDirectoryNode" />
               <item name="doc" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spark-kafka" type="b2602c69:ProjectViewProjectNode" />
@@ -248,14 +250,43 @@
               <item name="spark-kafka" type="b2602c69:ProjectViewProjectNode" />
               <item name="spark-kafka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spark-kafka" type="b2602c69:ProjectViewProjectNode" />
               <item name="spark-kafka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark-kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark-kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark-kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark-kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spark-kafka" type="b2602c69:ProjectViewProjectNode" />
@@ -268,16 +299,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../imooc_web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -303,7 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ImoocStatStreamingApp">
+  <component name="RunManager" selected="Application.StreamingWordCountApp">
     <configuration name="CourseClickCountDAO" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.tdtk.spark.project.dao.CourseClickCountDAO" />
       <module name="spark-kafka" />
@@ -326,17 +360,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="HBaseUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tdtk.spark.project.utils.HBaseUtils" />
-      <module name="spark-kafka" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tdtk.spark.project.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="ImoocStatStreamingApp" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.tdtk.spark.project.spark.ImoocStatStreamingApp" />
       <module name="spark-kafka" />
@@ -349,14 +372,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="KafkaStreamingApp" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.tdtk.spark.kafka.KafkaStreamingApp" />
+    <configuration name="StreamingWordCountApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tdtk.spark.StreamingWordCountApp" />
       <module name="spark-kafka" />
-      <option name="PROGRAM_PARAMETERS" value="192.168.199.150:2181 test streamingtopic 1" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tdtk.spark.kafka.*" />
+          <option name="PATTERN" value="com.tdtk.spark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="WordCountApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tdtk.spark.WordCountApp" />
+      <module name="spark-kafka" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tdtk.spark.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -403,19 +436,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.KafkaStreamingApp" />
       <item itemvalue="Application.ImoocStatStreamingApp" />
-      <item itemvalue="Application.HBaseUtils" />
       <item itemvalue="Application.CourseClickCountDAO" />
       <item itemvalue="Application.CourseSearchClickCountDAO" />
+      <item itemvalue="Application.WordCountApp" />
+      <item itemvalue="Application.StreamingWordCountApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamingWordCountApp" />
+        <item itemvalue="Application.WordCountApp" />
         <item itemvalue="Application.ImoocStatStreamingApp" />
         <item itemvalue="Application.CourseSearchClickCountDAO" />
         <item itemvalue="Application.CourseClickCountDAO" />
-        <item itemvalue="Application.HBaseUtils" />
-        <item itemvalue="Application.KafkaStreamingApp" />
       </list>
     </recent_temporary>
   </component>
@@ -433,6 +466,7 @@
       <workItem from="1543318643430" duration="1335000" />
       <workItem from="1543320877558" duration="22687000" />
       <workItem from="1543355424427" duration="19095000" />
+      <workItem from="1543490624745" duration="7687000" />
     </task>
     <task id="LOCAL-00001" summary="添加文档说明">
       <created>1543322477137</created>
@@ -487,43 +521,75 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43766000" />
+    <option name="totallyTimeSpent" value="51453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.21514745" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2981455" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.12410842" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.5948645" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.21514745" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4593438" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.06990014" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23525469" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21514745" />
       <window_info anchor="right" id="Bean Validation" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2981455" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2382311" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.5948645" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.21514745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14075068" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2981455" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -544,6 +610,74 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tdtk/spark/kafka/KafkaStreamingApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="e#30#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tdtk/spark/project/spark/ImoocStatStreamingApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="e#38#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/data/generate_log.python">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tdtk/spark/project/domain/CourseSearchClickCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="77" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tdtk/spark/project/dao/CourseSearchClickCountDAO.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tdtk/spark/project/dao/CourseClickCountDAO.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="e#36#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tdtk/spark/project/domain/CourseClickCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tdtk/spark/project/domain/ClickLog.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -555,9 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="e#30#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -610,9 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#30#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -658,20 +786,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tdtk/spark/FileWordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/tdtk/spark/flume/FlumePushWordCount.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#30#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -697,9 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="e#30#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -749,9 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-93">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#38#59#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -767,7 +879,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/tdtk/spark/project/domain/ClickLog.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
+        <state relative-caret-position="280">
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
@@ -781,7 +893,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/tdtk/spark/kafka/KafkaStreamingApp.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-308">
+        <state relative-caret-position="308">
           <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
           <folding>
             <element signature="e#30#63#0" expanded="true" />
@@ -791,7 +903,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/tdtk/spark/project/dao/CourseClickCountDAO.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
+        <state relative-caret-position="336">
           <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding>
             <element signature="e#36#89#0" expanded="true" />
@@ -808,24 +920,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/tdtk/spark/project/dao/CourseSearchClickCountDAO.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
+        <state relative-caret-position="112">
           <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="e#37#96#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="3696">
           <caret line="132" column="14" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/tdtk/spark/project/spark/ImoocStatStreamingApp.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
+        <state relative-caret-position="392">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="28" />
           <folding>
             <element signature="e#38#120#0" expanded="true" />
@@ -834,14 +943,46 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/data/generate_log.python">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1428" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0-sources.jar!/org/apache/spark/api/java/JavaRDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tdtk/spark/FileWordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tdtk/spark/WordCountApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="54" lean-forward="true" selection-end-line="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tdtk/spark/StreamingWordCountApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="34" column="32" lean-forward="true" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
